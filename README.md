@@ -1,68 +1,45 @@
 #include <stdio.h>
+#include <string.h>
 
-// Fonksiyon prototipleri
-void sifrele(char *dosyaAdi, char *sifre);
-void coz(char *dosyaAdi, char *sifre);
+// Teklif struct'ı tanımlama
+struct Teklif {
+    float miktar;
+};
 
 int main() {
-    char dosyaAdi[] = "input 1.txt";
-    char sifre[] = "sifre123";
+    int teklifSayisi,i;
 
-    // Dosyayı şifrele
-    sifrele(dosyaAdi, sifre);
+    printf("Kac kisi teklif verecek: ");
+    scanf("%d", &teklifSayisi);
 
-    // Şifreli dosyayı çöz
-    coz(dosyaAdi, sifre);
+    if (teklifSayisi <= 0) {
+        printf("Gecersiz girdi. En az 1 teklif veren olmalidir.\n");
+        return 1; // Hata durumu
+    }
+
+    // Teklif bilgilerini tutacak olan struct dizisi
+    struct Teklif teklifler[teklifSayisi];
+
+    // Teklifleri alma
+    for (i = 0; i < teklifSayisi; i++) {
+        printf("%d. kisinin teklifi:\n", i + 1);
+        printf("Teklif Miktari: ");
+        scanf("%f", &teklifler[i].miktar);
+    }
+
+    // En yüksek teklifi
+    float maxTeklif = 0;
+
+    for (i = 0; i < teklifSayisi; i++) {
+        if (teklifler[i].miktar > maxTeklif) {
+            maxTeklif = teklifler[i].miktar;
+            
+        }
+    }
+
+    // Kazananı yazdırma
+    printf("En yuksek teklif: %.2f TL\n", maxTeklif);
+    
 
     return 0;
-}
-
-// Dosyayı şifreleme fonksiyonu
-void sifrele(char *dosyaAdi, char *sifre) {
-    FILE *dosya = fopen(dosyaAdi, "r");
-    FILE *sifreliDosya = fopen("sifreliDosya.txt", "w");
-
-    if (dosya == NULL || sifreliDosya == NULL) {
-        printf("Dosya acilamadi!");
-        return;
-    }
-
-    int karakter;
-    int sifreUzunluk = strlen(sifre);
-    int i = 0;
-
-    while ((karakter = fgetc(dosya)) != EOF) {
-        fputc(karakter ^ sifre[i % sifreUzunluk], sifreliDosya);
-        i++;
-    }
-
-    fclose(dosya);
-    fclose(sifreliDosya);
-
-    printf("Dosya sifrelenmis ve 'sifreliDosya.txt' olarak kaydedilmistir.\n");
-}
-
- // Şifreli dosyayı çözme fonksiyonu
-void coz(char *dosyaAdi, char *sifre) {
-    FILE *sifreliDosya = fopen("sifreliDosya.txt", "r");
-    FILE *cozulmusDosya = fopen("cozulmusDosya.txt", "w");
-
-    if (sifreliDosya == NULL || cozulmusDosya == NULL) {
-        printf("Dosya acilamadi!");
-        return;
-    }
-
-    int karakter;
-    int sifreUzunluk = strlen(sifre);
-    int i = 0;
-
-    while ((karakter = fgetc(sifreliDosya)) != EOF) {
-        fputc(karakter ^ sifre[i % sifreUzunluk], cozulmusDosya);
-        i++;
-    }
-
-    fclose(sifreliDosya);
-    fclose(cozulmusDosya);
-
-    printf("Sifreli dosya cozulmus ve 'cozulmusDosya.txt' olarak kaydedilmistir.\n");
 }

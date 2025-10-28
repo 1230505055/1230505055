@@ -1,68 +1,56 @@
-#include <stdio.h>
+# [cite_start]Ertuğrul Öztürk [cite: 1]
 
-// Fonksiyon prototipleri
-void sifrele(char *dosyaAdi, char *sifre);
-void coz(char *dosyaAdi, char *sifre);
+## [cite_start]Kariyer Hedefi [cite: 8]
 
-int main() {
-    char dosyaAdi[] = "input 1.txt";
-    char sifre[] = "sifre123";
+[cite_start]Okuduğum üniversitede kendime daha fazla bilgi, deneyim ve tecrübe katmak [cite: 9][cite_start], daha sonraki iş hayatım ve çalışacağım bölüm ile alakalı tam bilgili olmak istiyorum[cite: 9]. [cite_start]İş hayatında yaptığım işi kendim ve çalıştığım yer için nasıl daha performanslı ve sağlıklı yapabileceğim hakkında çalışırım[cite: 10].
 
-    // Dosyayı şifrele
-    sifrele(dosyaAdi, sifre);
+## [cite_start]Eğitim Bilgileri [cite: 11]
 
-    // Şifreli dosyayı çöz
-    coz(dosyaAdi, sifre);
+* [cite_start]**Üniversite:** Kırklareli Üniversitesi Kayalı Kampüsü - Yazılım Mühendisliği (2023) [cite: 12]
+* [cite_start]**Lise:** Gemport Gemlik Anadolu Lisesi - Bursa Gemlik (2019-2023) [cite: 13]
 
-    return 0;
-}
+## [cite_start]Bilgisayar Bilgisi [cite: 16]
 
-// Dosyayı şifreleme fonksiyonu
-void sifrele(char *dosyaAdi, char *sifre) {
-    FILE *dosya = fopen(dosyaAdi, "r");
-    FILE *sifreliDosya = fopen("sifreliDosya.txt", "w");
+### Programlama Dilleri
 
-    if (dosya == NULL || sifreliDosya == NULL) {
-        printf("Dosya acilamadi!");
-        return;
-    }
+* **İyi:**
+    * [cite_start]Python [cite: 18]
+    * [cite_start]HTML-Css [cite: 19]
+    * [cite_start]C [cite: 21]
+    * [cite_start]C# [cite: 24]
+* **Orta:**
+    * [cite_start]Java [cite: 20]
+    * [cite_start]JavaScript [cite: 22]
+    * [cite_start]PHP [cite: 23]
 
-    int karakter;
-    int sifreUzunluk = strlen(sifre);
-    int i = 0;
+### Yazılımlar
 
-    while ((karakter = fgetc(dosya)) != EOF) {
-        fputc(karakter ^ sifre[i % sifreUzunluk], sifreliDosya);
-        i++;
-    }
+* [cite_start]**İyi:** Word, Excel, Powerpoint [cite: 17]
 
-    fclose(dosya);
-    fclose(sifreliDosya);
+## [cite_start]Yabancı Dil Bilgisi [cite: 25]
 
-    printf("Dosya sifrelenmis ve 'sifreliDosya.txt' olarak kaydedilmistir.\n");
-}
+* [cite_start]**İngilizce:** Okuma: Orta, Yazma: Orta, Konuşma: Orta [cite: 26]
 
- // Şifreli dosyayı çözme fonksiyonu
-void coz(char *dosyaAdi, char *sifre) {
-    FILE *sifreliDosya = fopen("sifreliDosya.txt", "r");
-    FILE *cozulmusDosya = fopen("cozulmusDosya.txt", "w");
+## [cite_start]İş Deneyimi [cite: 14]
 
-    if (sifreliDosya == NULL || cozulmusDosya == NULL) {
-        printf("Dosya acilamadi!");
-        return;
-    }
+* [cite_start]İş deneyimi yok[cite: 15].
 
-    int karakter;
-    int sifreUzunluk = strlen(sifre);
-    int i = 0;
+## [cite_start]Kişisel Bilgiler [cite: 6]
 
-    while ((karakter = fgetc(sifreliDosya)) != EOF) {
-        fputc(karakter ^ sifre[i % sifreUzunluk], cozulmusDosya);
-        i++;
-    }
+* [cite_start]**Doğum Tarihi:** 02/12/2005 [cite: 7]
+* [cite_start]**Sürücü Belgesi:** B-A2 [cite: 7]
+* [cite_start]**Askerlik Durumu:** Tecilli [cite: 7]
+* [cite_start]**Medeni Durum:** Bekar [cite: 7]
+* [cite_start]**Uyruk:** T.C. [cite: 7]
 
-    fclose(sifreliDosya);
-    fclose(cozulmusDosya);
+## [cite_start]Hobiler [cite: 27]
 
-    printf("Sifreli dosya cozulmus ve 'cozulmusDosya.txt' olarak kaydedilmistir.\n");
-}
+* [cite_start]Yürüyüş yapmak [cite: 28]
+* [cite_start]Müzik dinlemek [cite: 28]
+* [cite_start]Motor sürmek [cite: 28]
+
+## İletişim
+
+* [cite_start]**E-posta:** ertugrulozturk5416@gmail.com [cite: 3, 5]
+* [cite_start]**Cep:** 05511842296 [cite: 2, 4]
+* **Adres:** DR. [cite_start]Ziya kaya mahallesi Fidan Sokak no:2 daire:5 Gemlik/BURSA [cite: 2, 4]

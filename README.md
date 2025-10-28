@@ -1,58 +1,58 @@
-# [cite_start]Ertuğrul Öztürk [cite: 1]
+# Ertuğrul Öztürk
 
-## [cite_start]Kariyer Hedefi [cite: 8]
+## Kariyer Hedefi
 
-[cite_start]Okuduğum üniversitede kendime daha fazla bilgi, deneyim ve tecrübe katmak daha sonraki iş hayatım ve çalışıcağım bölüm ile alakalı tam biligili olmak istiyorum. [cite: 9]
-[cite_start]İş hayatında yaptığım işi kendim ve çalıştığım yer için nasıl daha performanslı ve sağlıklı yapabiliceğim hakkında çalışırım. [cite: 10]
+Okuduğum üniversitede kendime daha fazla bilgi, deneyim ve tecrübe katmak daha sonraki iş hayatım ve çalışıcağım bölüm ile alakalı tam biligili olmak istiyorum.
+İş hayatında yaptığım işi kendim ve çalıştığım yer için nasıl daha performanslı ve sağlıklı yapabiliceğim hakkında çalışırım.
 
-## [cite_start]Eğitim Bilgileri [cite: 11]
+## Eğitim Bilgileri
 
-* [cite_start]**Üniversite:** Kırklareli Üniversitesi Kayalı Kampüsü -Yazılım Mühendisliği 2023 [cite: 12]
-* [cite_start]**Lise:** Gemport Gemlik Anadolu Lisesi-Bursa Gemlik 2019-2023 [cite: 13]
+* **Üniversite:** Kırklareli Üniversitesi Kayalı Kampüsü -Yazılım Mühendisliği 2023
+* **Lise:** Gemport Gemlik Anadolu Lisesi-Bursa Gemlik 2019-2023
 
-## [cite_start]Bilgisayar Bilgisi [cite: 16]
+## Bilgisayar Bilgisi
 
 ### Programlama Dilleri
 
 * **İyi:**
-    * [cite_start]Python [cite: 18]
-    * [cite_start]HTML-Css [cite: 19]
-    * [cite_start]C [cite: 21]
-    * [cite_start]C# [cite: 24]
+    * Python
+    * HTML-Css
+    * C
+    * C#
 * **Orta:**
-    * [cite_start]Java [cite: 20]
-    * [cite_start]JavaScript [cite: 22]
-    * [cite_start]PHP [cite: 23]
+    * Java
+    * JavaScript
+    * PHP
 
 ### Yazılımlar
 
-* [cite_start]**İyi:** Word, Excel, Powerpoint [cite: 17]
+* **İyi:** Word, Excel, Powerpoint
 
-## [cite_start]Yabancı Dil Bilgisi [cite: 25]
+## Yabancı Dil Bilgisi
 
-* [cite_start]**İngilizce:** Okuma :orta Yazma :orta Konuşma :orta [cite: 26]
+* **İngilizce:** Okuma :orta Yazma :orta Konuşma :orta
 
-## [cite_start]İş Deneyimi [cite: 14]
+## İş Deneyimi
 
-* [cite_start]İş deneyimi yok. [cite: 15]
+* İş deneyimi yok.
 
-## [cite_start]Kişisel Bilgiler [cite: 6]
+## Kişisel Bilgiler
 
-* [cite_start]**Cinsiyet:** Bay [cite: 7]
-* [cite_start]**Doğum Tarihi:** 02/12/2005 [cite: 7]
-* [cite_start]**Medeni Durum:** Bekar [cite: 7]
-* [cite_start]**Uyruk:** T.C. [cite: 7]
-* [cite_start]**Sürücü Belgesi:** B-A2 [cite: 7]
-* [cite_start]**Askerlik Durumu:** Tecilli [cite: 7]
+* **Cinsiyet:** Bay
+* **Doğum Tarihi:** 02/12/2005
+* **Medeni Durum:** Bekar
+* **Uyruk:** T.C.
+* **Sürücü Belgesi:** B-A2
+* **Askerlik Durumu:** Tecilli
 
-## [cite_start]Hobiler [cite: 27]
+## Hobiler
 
-* [cite_start]Yürüyüş yapmak [cite: 28]
-* [cite_start]müzik dinlemek [cite: 28]
-* [cite_start]motor sürmek [cite: 28]
+* Yürüyüş yapmak
+* müzik dinlemek
+* motor sürmek
 
 ## İletişim
 
-* [cite_start]**E-posta:** ertugrulozturk5416@gmail.com [cite: 3, 5]
-* [cite_start]**Cep:** 05511842296 [cite: 2, 4]
-* **Adres:** DR. [cite_start]Ziya kaya mahallesi Fidan Sokak no:2daire:5 Gemlik/BURSA [cite: 2, 4]
+* **E-posta:** ertugrulozturk5416@gmail.com
+* **Cep:** 05511842296
+* **Adres:** DR. Ziya kaya mahallesi Fidan Sokak no:2daire:5 Gemlik/BURSA
